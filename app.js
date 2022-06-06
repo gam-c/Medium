@@ -42,3 +42,19 @@ console.log(arraySum([0, -5, -10])) */
 console.log(arraySum([2, 2, 2]))
 console.log(arraySum([100, 200, 500]))
 console.log(arraySum([0, -5, -10])) */
+
+/* function progressiveSum (num) {
+    let sum = 0
+    for (let i = 1; i <= num; i++) {
+        sum = sum + i
+    }
+    return sum
+}
+
+console.log(progressiveSum(3))
+console.log(progressiveSum(4))
+console.log(progressiveSum(600)) */
+
+function calcTime(sec) {
+    
+}
