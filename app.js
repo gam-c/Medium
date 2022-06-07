@@ -55,6 +55,21 @@ console.log(progressiveSum(3))
 console.log(progressiveSum(4))
 console.log(progressiveSum(600)) */
 
-function calcTime(sec) {
-    
+/* function calcTime(seconds) {
+    let timerMinutes = Math.floor(seconds / 60)
+    let timerSeconds = seconds % 60
+
+    if (timerMinutes.toString().length === 1) {
+        timerMinutes = '0' + timerMinutes
+    }
+
+    if (timerSeconds.toString().length === 1) {
+        timerSeconds = '0' + timerSeconds  
+    }
+
+    return timerMinutes + ":" + timerSeconds
 }
+
+console.log(calcTime(35)) */
+
+
